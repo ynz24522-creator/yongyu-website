@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>询价清单 Inquiry | 广东永裕光电有限公司</title>
+  <meta name="description" content="选择型号后生成产品询价邮件，发送至 sales@yongyuled.com。Generate a product inquiry email for selected part numbers.">
+  <meta name="theme-color" content="#081326">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="询价清单 Inquiry | 广东永裕光电有限公司">
+  <meta property="og:description" content="选择型号后生成产品询价邮件，发送至 sales@yongyuled.com。Generate a product inquiry email for selected part numbers.">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="inquiry">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">跳到主要内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="广东永裕光电有限公司 Guangdong Yongyu Optoelectronics Co., Ltd" width="336" height="176">
+        <span class="brand-text"><b>永裕光电</b><span>Yongyu Optoelectronics</span></span>
+      </a>
+      <nav class="nav" data-nav aria-label="主导航">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="about.html" data-i18n="nav.about">关于我们</a>
+        <a href="products.html" data-i18n="nav.products">产品中心</a>
+        <a href="applications.html" data-i18n="nav.applications">应用领域</a>
+        <a href="strength.html" data-i18n="nav.strength">实力与认证</a>
+        <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+      </nav>
+      <div class="header-tools">
+        <div class="lang-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-lang-btn="zh" aria-pressed="true">中文</button>
+          <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="btn btn-primary btn-sm inquiry-btn" type="button" data-open-drawer>
+          <span data-inquiry-label>询价清单</span>
+          <span class="inquiry-count" data-inquiry-count hidden>0</span>
+        </button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false"
+          aria-label="打开导航菜单" data-i18n-aria="a11y.menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        
+        <span class="eyebrow" data-i18n="inquiry.eyebrow" style="color:#7fd3ff;">询价清单</span>
+        <h1 data-i18n="inquiry.title">已选型号与询价邮件</h1>
+        <p data-i18n="inquiry.lead">清单保存在本机浏览器中，填写数量与备注后可一键生成邮件发送至 sales@yongyuled.com。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2" style="align-items:start;gap:32px;">
+          <div>
+            <div data-inquiry-page-list></div>
+          </div>
+          <div data-inquiry-form hidden>
+            <div class="card"><div class="card-body">
+              <h3 data-i18n="inquiry.preview">邮件内容预览</h3>
+              <label class="small muted" for="inquiry-company" data-i18n="inquiry.company">公司名称</label>
+              <input id="inquiry-company" type="text" placeholder="填写公司名称，便于我们回复" data-i18n-placeholder="inquiry.companyPlaceholder"
+                style="width:100%;padding:9px 12px;border:1px solid var(--line-strong);border-radius:10px;font:inherit;margin-bottom:12px;">
+              <label class="small muted" for="inquiry-contact" data-i18n="inquiry.contactName">联系人</label>
+              <input id="inquiry-contact" type="text" placeholder="姓名 / 电话 / 邮箱" data-i18n-placeholder="inquiry.contactPlaceholder"
+                style="width:100%;padding:9px 12px;border:1px solid var(--line-strong);border-radius:10px;font:inherit;margin-bottom:12px;">
+              <textarea data-inquiry-preview readonly rows="12"
+                style="width:100%;padding:12px;border:1px solid var(--line-strong);border-radius:10px;font:13px/1.6 var(--font-mono);resize:vertical;"></textarea>
+              <div style="display:grid;gap:10px;margin-top:14px;">
+                <a class="btn btn-primary btn-block" href="mailto:sales@yongyuled.com" data-inquiry-send data-i18n="inquiry.send">生成询价邮件</a>
+                <button class="btn btn-outline btn-block" type="button" data-inquiry-copy data-i18n="inquiry.copy">复制邮件内容</button>
+                <button class="btn btn-outline btn-block" type="button" data-inquiry-clear data-i18n="inquiry.clear">清空清单</button>
+              </div>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <img src="assets/img/logo.png" alt="广东永裕光电有限公司">
+            <span data-lang-block="zh">广东永裕光电有限公司</span>
+            <span data-lang-block="en">Guangdong Yongyu Optoelectronics Co., Ltd</span>
+          </div>
+          <p class="small" style="margin-bottom:6px;">用优秀的产品赢得市场的认可与尊重</p>
+          <p class="small" style="margin:0;">
+            <a href="https://www.yongyuled.com" rel="noopener">www.yongyuled.com</a> ·
+            <a href="mailto:sales@yongyuled.com">sales@yongyuled.com</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav">网站导航</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+            <li><a href="about.html" data-i18n="nav.about">关于我们</a></li>
+            <li><a href="products.html" data-i18n="nav.products">产品中心</a></li>
+            <li><a href="applications.html" data-i18n="nav.applications">应用领域</a></li>
+            <li><a href="strength.html" data-i18n="nav.strength">实力与认证</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">联系我们</a></li>
+            <li><a href="inquiry.html" data-i18n="header.inquiry">询价清单</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.products">产品家族</h4>
+          <ul>
+            <li><a href="products.html?family=chip" data-i18n="products.familyChip">Chip LED</a></li>
+            <li><a href="products.html?family=top" data-i18n="products.familyTop">TOP LED</a></li>
+            <li><a href="products.html?family=ir" data-i18n="products.familyIr">红外 LED</a></li>
+            <li><a href="products.html?family=lighting" data-i18n="products.familyLighting">照明 LED</a></li>
+            <li><a href="products.html?family=sensor" data-i18n="products.familySensor">光传感</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4 data-i18n="footer.bases">生产基地</h4>
+          <ul>
+            <li><span data-lang-block="zh">广东汕头（公司总部）</span><span data-lang-block="en">Shantou, Guangdong (HQ)</span></li>
+            <li><span data-lang-block="zh">广西崇左</span><span data-lang-block="en">Chongzuo, Guangxi</span></li>
+            <li><span data-lang-block="zh">广东深圳（子公司）</span><span data-lang-block="en">Shenzhen, Guangdong (subsidiary)</span></li>
+          </ul>
+          <p class="small" style="margin:10px 0 0;">Tel (+86) 0754-88662688</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footer.copyright">© 2026 广东永裕光电有限公司 版权所有</span>
+        <span data-i18n="footer.source">本站产品参数转录自《永裕光电产品画册 (V0)》。</span>
+      </div>
+    </div>
+  </footer>
+  <div class="drawer-backdrop" data-drawer-backdrop></div>
+  <aside class="drawer" data-drawer aria-hidden="true" aria-label="询价清单">
+    <div class="drawer-head">
+      <h2 data-i18n="header.inquiry">询价清单</h2>
+      <button class="drawer-close" type="button" data-drawer-close aria-label="关闭" data-i18n-aria="a11y.close">×</button>
+    </div>
+    <div class="drawer-body" data-inquiry-list></div>
+    <div class="drawer-foot">
+      <a class="btn btn-primary btn-block" href="inquiry.html">
+        <span data-i18n="inquiry.goToList">前往询价页面</span>
+        <span class="inquiry-count" data-inquiry-count hidden>0</span>
+      </a>
+      <button class="btn btn-outline btn-block" type="button" data-inquiry-clear data-i18n="inquiry.clear">清空清单</button>
+    </div>
+  </aside>
+  <script src="assets/js/product-data.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
