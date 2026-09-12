@@ -1,0 +1,351 @@
+[
+ {
+  "file": "logo.png",
+  "usage": "logo",
+  "source": "画册 P1 封面 logo（近白底已键出为透明）",
+  "size": "336x176",
+  "bytes": 55887
+ },
+ {
+  "file": "company-banner.jpg",
+  "usage": "company-banner",
+  "source": "画册 P3 公司简介页头图",
+  "size": "2000x750",
+  "bytes": 200442
+ },
+ {
+  "file": "strength-line-1.jpg",
+  "usage": "strength-line-1",
+  "source": "画册 P7 第 1 张图",
+  "size": "2000x778",
+  "bytes": 189099
+ },
+ {
+  "file": "strength-line-2.jpg",
+  "usage": "strength-line-2",
+  "source": "画册 P7 第 2 张图",
+  "size": "2000x491",
+  "bytes": 114784
+ },
+ {
+  "file": "strength-line-3.jpg",
+  "usage": "strength-line-3",
+  "source": "画册 P7 第 3 张图",
+  "size": "1917x458",
+  "bytes": 85426
+ },
+ {
+  "file": "app-home-appliance.jpg",
+  "usage": "app-home-appliance",
+  "source": "画册 P8 第 1 张图",
+  "size": "763x286",
+  "bytes": 57142
+ },
+ {
+  "file": "app-communication.jpg",
+  "usage": "app-communication",
+  "source": "画册 P8 第 2 张图",
+  "size": "769x288",
+  "bytes": 72149
+ },
+ {
+  "file": "app-lighting.jpg",
+  "usage": "app-lighting",
+  "source": "画册 P8 第 3 张图",
+  "size": "780x293",
+  "bytes": 57604
+ },
+ {
+  "file": "app-industrial.jpg",
+  "usage": "app-industrial",
+  "source": "画册 P8 第 4 张图",
+  "size": "782x293",
+  "bytes": 73470
+ },
+ {
+  "file": "app-automotive.jpg",
+  "usage": "app-automotive",
+  "source": "画册 P8 第 5 张图",
+  "size": "772x348",
+  "bytes": 68252
+ },
+ {
+  "file": "app-smart-control.jpg",
+  "usage": "app-smart-control",
+  "source": "画册 P8 第 6 张图",
+  "size": "792x352",
+  "bytes": 42691
+ },
+ {
+  "file": "family-chip-led.jpg",
+  "usage": "family-chip-led",
+  "source": "画册 P9 第 1 张图",
+  "size": "1327x633",
+  "bytes": 135162
+ },
+ {
+  "file": "family-top-led.jpg",
+  "usage": "family-top-led",
+  "source": "画册 P9 第 2 张图",
+  "size": "1315x598",
+  "bytes": 105486
+ },
+ {
+  "file": "org-chart.png",
+  "usage": "org-chart",
+  "source": "画册 P6 第 2 张图",
+  "size": "1451x598",
+  "bytes": 97544
+ },
+ {
+  "file": "series-0201-single.png",
+  "usage": "series-0201-single",
+  "source": "画册 P10 封装示意图 1",
+  "size": "381x232",
+  "bytes": 52754
+ },
+ {
+  "file": "series-0201-white.png",
+  "usage": "series-0201-white",
+  "source": "画册 P10 封装示意图 2",
+  "size": "381x232",
+  "bytes": 27963
+ },
+ {
+  "file": "series-0402-single.png",
+  "usage": "series-0402-single",
+  "source": "画册 P11 封装示意图 1",
+  "size": "381x232",
+  "bytes": 56971
+ },
+ {
+  "file": "series-0402-white.png",
+  "usage": "series-0402-white",
+  "source": "画册 P11 封装示意图 2",
+  "size": "381x232",
+  "bytes": 55022
+ },
+ {
+  "file": "series-0602-single.png",
+  "usage": "series-0602-single",
+  "source": "画册 P12 封装示意图 1",
+  "size": "263x232",
+  "bytes": 29261
+ },
+ {
+  "file": "series-0602-white.png",
+  "usage": "series-0602-white",
+  "source": "画册 P12 封装示意图 2",
+  "size": "283x227",
+  "bytes": 42692
+ },
+ {
+  "file": "series-0603-single.png",
+  "usage": "series-0603-single",
+  "source": "画册 P13 封装示意图 1",
+  "size": "334x232",
+  "bytes": 53517
+ },
+ {
+  "file": "series-0603-white.png",
+  "usage": "series-0603-white",
+  "source": "画册 P13 封装示意图 2",
+  "size": "308x232",
+  "bytes": 57034
+ },
+ {
+  "file": "series-0805-single.png",
+  "usage": "series-0805-single",
+  "source": "画册 P14 封装示意图 1",
+  "size": "290x232",
+  "bytes": 52767
+ },
+ {
+  "file": "series-0805-white.png",
+  "usage": "series-0805-white",
+  "source": "画册 P14 封装示意图 2",
+  "size": "299x232",
+  "bytes": 52821
+ },
+ {
+  "file": "series-1204-single.png",
+  "usage": "series-1204-single",
+  "source": "画册 P15 封装示意图 1",
+  "size": "381x232",
+  "bytes": 43793
+ },
+ {
+  "file": "series-1204-white.png",
+  "usage": "series-1204-white",
+  "source": "画册 P15 封装示意图 2",
+  "size": "281x232",
+  "bytes": 46636
+ },
+ {
+  "file": "series-1206-single.png",
+  "usage": "series-1206-single",
+  "source": "画册 P16 封装示意图 1",
+  "size": "284x232",
+  "bytes": 41685
+ },
+ {
+  "file": "series-1206-white.png",
+  "usage": "series-1206-white",
+  "source": "画册 P16 封装示意图 2",
+  "size": "274x232",
+  "bytes": 38850
+ },
+ {
+  "file": "series-1808-single.png",
+  "usage": "series-1808-single",
+  "source": "画册 P17 封装示意图 1",
+  "size": "337x232",
+  "bytes": 42094
+ },
+ {
+  "file": "series-1808-white.png",
+  "usage": "series-1808-white",
+  "source": "画册 P17 封装示意图 2",
+  "size": "381x232",
+  "bytes": 48094
+ },
+ {
+  "file": "series-0805D.png",
+  "usage": "series-0805D",
+  "source": "画册 P18 封装示意图 1",
+  "size": "309x232",
+  "bytes": 51621
+ },
+ {
+  "file": "series-1204D.png",
+  "usage": "series-1204D",
+  "source": "画册 P19 封装示意图 1",
+  "size": "259x232",
+  "bytes": 38347
+ },
+ {
+  "file": "series-1206D.png",
+  "usage": "series-1206D",
+  "source": "画册 P20 封装示意图 1",
+  "size": "381x232",
+  "bytes": 40702
+ },
+ {
+  "file": "series-1209D.png",
+  "usage": "series-1209D",
+  "source": "画册 P21 封装示意图 1",
+  "size": "381x232",
+  "bytes": 57618
+ },
+ {
+  "file": "series-1615D.png",
+  "usage": "series-1615D",
+  "source": "画册 P22 封装示意图 1",
+  "size": "284x232",
+  "bytes": 52632
+ },
+ {
+  "file": "series-0807R.png",
+  "usage": "series-0807R",
+  "source": "画册 P23 封装示意图 1",
+  "size": "263x232",
+  "bytes": 52963
+ },
+ {
+  "file": "series-1204R.png",
+  "usage": "series-1204R",
+  "source": "画册 P24 封装示意图 1",
+  "size": "300x232",
+  "bytes": 39779
+ },
+ {
+  "file": "series-1206R.png",
+  "usage": "series-1206R",
+  "source": "画册 P25 封装示意图 1",
+  "size": "273x232",
+  "bytes": 54846
+ },
+ {
+  "file": "series-1615R.png",
+  "usage": "series-1615R",
+  "source": "画册 P26 封装示意图 1",
+  "size": "248x232",
+  "bytes": 46500
+ },
+ {
+  "file": "series-1616R.png",
+  "usage": "series-1616R",
+  "source": "画册 P27 封装示意图 1",
+  "size": "263x232",
+  "bytes": 54298
+ },
+ {
+  "file": "series-1209R.png",
+  "usage": "series-1209R",
+  "source": "画册 P27 封装示意图 2",
+  "size": "291x232",
+  "bytes": 53648
+ },
+ {
+  "file": "series-0603IR-emitter.png",
+  "usage": "series-0603IR-emitter",
+  "source": "画册 P28 封装示意图 1",
+  "size": "301x232",
+  "bytes": 49285
+ },
+ {
+  "file": "series-0603IR-receiver.png",
+  "usage": "series-0603IR-receiver",
+  "source": "画册 P28 封装示意图 2",
+  "size": "306x232",
+  "bytes": 35769
+ },
+ {
+  "file": "series-0805IR-emitter.png",
+  "usage": "series-0805IR-emitter",
+  "source": "画册 P29 封装示意图 1",
+  "size": "294x232",
+  "bytes": 42102
+ },
+ {
+  "file": "series-0805IR-receiver.png",
+  "usage": "series-0805IR-receiver",
+  "source": "画册 P29 封装示意图 2",
+  "size": "275x232",
+  "bytes": 35675
+ },
+ {
+  "file": "series-1204IR-emitter.png",
+  "usage": "series-1204IR-emitter",
+  "source": "画册 P30 封装示意图 1",
+  "size": "262x232",
+  "bytes": 28198
+ },
+ {
+  "file": "series-1204IR-receiver.png",
+  "usage": "series-1204IR-receiver",
+  "source": "画册 P30 封装示意图 2",
+  "size": "282x232",
+  "bytes": 26219
+ },
+ {
+  "file": "series-1206IR-emitter.png",
+  "usage": "series-1206IR-emitter",
+  "source": "画册 P31 封装示意图 1",
+  "size": "237x232",
+  "bytes": 33924
+ },
+ {
+  "file": "series-1206IR-receiver.png",
+  "usage": "series-1206IR-receiver",
+  "source": "画册 P31 封装示意图 2",
+  "size": "279x232",
+  "bytes": 31967
+ },
+ {
+  "file": "download/yongyu-catalog-v0.pdf",
+  "usage": "catalog-download",
+  "source": "原始画册 PDF",
+  "bytes": 4100669
+ }
+]
